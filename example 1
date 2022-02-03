@@ -1,0 +1,11 @@
+
+public class Smartphones {
+	String name = " I phone";
+	double price = 89000.98;
+	int storage = 128;
+	public static void main(String[] args) {
+		Smartphones obj = new Smartphones();
+		System.out.println(obj.name);
+	}
+
+}
