@@ -1,0 +1,42 @@
+class student
+{
+    String name;
+	int rollno;
+	double marks;
+public void getName(String n)
+{
+	name=n;
+	System.out.println("Name is: "+name);
+}
+public void getRollno(int r)
+{
+	rollno= r;
+	System.out.println("RollNo is: "+rollno);
+}
+public void getmarks(double d)
+{
+	marks=d;
+	System.out.println("marks is: "+marks);
+}
+}
+public class ClassEx2 {
+
+	public static void main(String[] args) {
+		student obj1 = new student();
+		student obj2 = new student();
+		obj1.getName("yash");
+		obj1.getRollno(123);
+		obj1.getmarks(76.45);
+		System.out.println(obj1.rollno+"and marks is" +obj1.marks);
+		
+		obj2.getName("vivan");
+		obj2.getRollno(54);
+		obj2.getmarks(80.90);
+		System.out.println(obj2.rollno+"and marks is" +obj2.marks);
+		
+		
+	
+
+	}
+
+}
